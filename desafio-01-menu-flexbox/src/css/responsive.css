@@ -1,0 +1,33 @@
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .logo-container {
+    margin: 44px auto 100px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;  
+  }
+
+  nav ul li a {
+    padding-left: 95.8px;
+    padding-right: 95.8px;
+    display: flex;
+  }
+
+  nav ul li button {
+    margin: 0 auto;
+    margin-top: 51.5px;
+    width: 127px;
+  }
+}

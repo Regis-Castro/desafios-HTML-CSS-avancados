@@ -1,0 +1,68 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+  margin-left: 55px;
+  margin-top: 38px;
+}
+
+.logo-container h1 {
+  font-weight: 800;
+}
+
+.logo-container a:visited, logo-container a:active {
+  color: var(--logo-h1-color, #000000)
+}
+
+.logo a {
+  background: url(../images/logo.png) center;
+  background-size: cover;
+  display: flex;
+  height: 41.8px;
+  width: 48.28px;
+}
+
+nav ul{
+  align-items: center;
+  display: flex;
+  margin-right: 74px;
+  margin-top: 41px;
+}
+
+nav ul li a {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 11.5px 9.3px;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #5BC241;
+  color: var(--menu-text-color, #FFFFFF);
+}
+
+nav ul li button {
+  background-color: #5BC241;
+  border-radius: 10px;
+  color: var(--menu-text-color, #FFFFFF);
+  font-weight: 300;
+  height: 39px;  
+  margin-left: 25.7px;
+  width: 127px;
+}
+

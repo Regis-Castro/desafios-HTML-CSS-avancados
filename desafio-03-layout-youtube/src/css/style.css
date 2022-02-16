@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  max-width: 676px; 
+}
+
+main {
+  background-color: #F7F7F7;
+  display: grid;
+  grid-template-columns: .6fr .4fr;
+  grid-template-rows: 56px 1fr;
+  grid-template-areas: "destaque propaganda"
+                       "destaque relacionados";
+  gap: 20px;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 1.4rem; 
+}
+
+.destaque {
+  grid-area: destaque;
+  width: 326px;
+}
+
+.destaque div:first-child {
+  background-image: url("https://via.placeholder.com/326x202");
+  height: 202px;
+}
+
+.destaque div:nth-child(2) h2 {
+  margin: 10px 0;
+}
+
+.destaque div:nth-child(2) span {
+  margin-bottom: 10px;
+}
+
+.destaque p:first-of-type {
+  margin-top: 10px;
+}
+
+.propaganda {
+  background-image: url("https://via.placeholder.com/270x56");
+}
+
+.relacionado {
+  display: flex;
+  width: 277px;
+}
+
+.relacionado div:first-child {
+  background-image: url("https://via.placeholder.com/101x71");
+  height: 71px;
+  width: 101px;
+} 
+
+.relacionado p:first-of-type {
+  margin: 7px 0 5px 0;
+}
+
+.relacionado p:last-of-type {
+  margin-top: 5px;
+}
+
+.relacionado div:nth-child(even) {
+  margin-left: 4px;
+}
+
+.relacionado:nth-child(1), .relacionado:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

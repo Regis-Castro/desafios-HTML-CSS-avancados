@@ -1,0 +1,10 @@
+@media (max-width: 375px) {
+  section {
+    flex-direction: column;
+    margin: 53px 20px 36px 20px;
+  }
+
+  .description {
+    margin: 0 0 23px 22px;
+  }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 141px;
+  margin-top: 116px;
+}
+
+.image {
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  display: flex;
+  height: 431.86px;
+  width: 335.64px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.description h2 {
+  font-size: 3rem;
+}
+
+.description p {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.image1 {
+  background-image: var(--gradient), url(/src/images/1.jpg);
+}
+
+.image2 {
+  background-image: var(--gradient), url(/src/images/2.jpg);
+}
+
+.image3 {
+  background-image: var(--gradient), url(/src/images/3.jpg);
+}
+
+.image4 {
+  background-image: var(--gradient), url(/src/images/4.jpg);
+}
+
+.description {
+  margin: 0 0 31px 19.49px;
+}
+
+.description h2 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+

@@ -39,19 +39,19 @@ section {
 }
 
 .image1 {
-  background-image: var(--gradient), url(/src/images/1.jpg);
+  background-image: var(--gradient), url(../images/1.jpg);
 }
 
 .image2 {
-  background-image: var(--gradient), url(/src/images/2.jpg);
+  background-image: var(--gradient), url(../images/2.jpg);
 }
 
 .image3 {
-  background-image: var(--gradient), url(/src/images/3.jpg);
+  background-image: var(--gradient), url(../images/3.jpg);
 }
 
 .image4 {
-  background-image: var(--gradient), url(/src/images/4.jpg);
+  background-image: var(--gradient), url(../images/4.jpg);
 }
 
 .description {

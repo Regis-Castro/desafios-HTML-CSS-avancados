@@ -1,6 +1,6 @@
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   body {
-    max-width: 375px;
+    max-width: 450px;
   }
   
   header {
@@ -20,14 +20,13 @@
   }
 
   nav ul li a {
-    padding-left: 95.8px;
-    padding-right: 95.8px;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  nav ul li button {
-    margin: 0 auto;
+  a[href="#cadastro"] {
     margin-top: 51.5px;
-    width: 127px;
+    width: 151px;
   }
 }

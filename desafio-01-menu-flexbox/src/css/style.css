@@ -56,7 +56,7 @@ nav ul li a:hover {
   color: var(--menu-text-color, #FFFFFF);
 }
 
-nav ul li button {
+a[href="#cadastro"] {
   background-color: #5BC241;
   border-radius: 10px;
   color: var(--menu-text-color, #FFFFFF);
